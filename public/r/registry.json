@@ -1,0 +1,25 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry.json",
+  "name": "overthought-toggles",
+  "homepage": "https://overthought-toggles.pages.dev",
+  "items": [
+    {
+      "name": "serious-toggle",
+      "type": "registry:ui",
+      "title": "Serious Toggle",
+      "description": "A production-ready switch with optimistic saves, loading, error rollback, keyboard support and reduced-motion handling.",
+      "dependencies": ["motion"],
+      "registryDependencies": ["utils"],
+      "files": [{ "path": "src/registry/serious-toggle.tsx", "type": "registry:ui" }]
+    },
+    {
+      "name": "quirky-toggle",
+      "type": "registry:ui",
+      "title": "Quirky Toggle",
+      "description": "The same switch with a face. Sleeps when off, wakes when on, and sulks if you spam it.",
+      "dependencies": ["motion"],
+      "registryDependencies": ["utils"],
+      "files": [{ "path": "src/registry/quirky-toggle.tsx", "type": "registry:ui" }]
+    }
+  ]
+}
